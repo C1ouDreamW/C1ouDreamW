@@ -41,13 +41,13 @@ jobs:
           base_indepth: yes
           repositories_forks: no
           config_timezone: Asia/Shanghai
-          config_display: columns
+          config_display: large
           config_animations: yes
           config_base64: yes
           config_order: base.header, isocalendar, languages, base.activity+community, base.repositories
 
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
           plugin_languages: yes
           plugin_languages_limit: 8
